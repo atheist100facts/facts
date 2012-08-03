@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'ArevSansRegular';
+    src: url('arev-webfont.eot');
+    src: url('arev-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arev-webfont.woff') format('woff'),
+         url('arev-webfont.ttf') format('truetype'),
+         url('arev-webfont.svg#ArevSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArevSansBold';
+    src: url('arevbd-webfont.eot');
+    src: url('arevbd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arevbd-webfont.woff') format('woff'),
+         url('arevbd-webfont.ttf') format('truetype'),
+         url('arevbd-webfont.svg#ArevSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArevSansBoldOblique';
+    src: url('arevbi-webfont.eot');
+    src: url('arevbi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arevbi-webfont.woff') format('woff'),
+         url('arevbi-webfont.ttf') format('truetype'),
+         url('arevbi-webfont.svg#ArevSansBoldOblique') format('svg');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'ArevSansOblique';
+    src: url('arevit-webfont.eot');
+    src: url('arevit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arevit-webfont.woff') format('woff'),
+         url('arevit-webfont.ttf') format('truetype'),
+         url('arevit-webfont.svg#ArevSansOblique') format('svg');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'AlteSchwabacherRegular';
+    src: url('alteschwabacher-webfont.eot');
+    src: url('alteschwabacher-webfont.eot?#iefix') format('embedded-opentype'),
+         url('alteschwabacher-webfont.woff') format('woff'),
+         url('alteschwabacher-webfont.ttf') format('truetype'),
+         url('alteschwabacher-webfont.svg#AlteSchwabacherRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

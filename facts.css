@@ -1,0 +1,224 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+
+  font-family: 'ArevSansRegular', Arial, sans-serif;
+
+  background-image: url( 'images/background.png' );
+}
+
+div.navigation {
+  margin:0 auto;
+  width: 775px;
+}
+
+div.nav-prev {
+  padding-top: 450px;
+  float: left;
+  text-align: left;
+}
+
+div.nav-next {
+  padding-top: 450px;
+  float: right;
+  text-align: right;
+}
+
+div.chapter, div.book {
+  width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  border: 3px solid black;
+
+  background-image: url( '../images/paper.png' );
+  background-color: white;
+
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0.8em 0.8em 0.8em;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0.8em 0.8em 0.8em;
+  box-shadow: rgba(0,0,0,0.8) 0.8em 0.8em 0.8em;
+}
+
+div.titlepage h1.title {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+div.titlepage h3.author {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+span.part a {
+  pointer-events: none;
+  cursor: default;
+  color: black;
+  text-decoration:none
+}
+
+span.part a, span.part a:link, span.part a:visited, span.part a:active {
+  text-decoration:none
+}
+
+span.part a:hover {
+  filter: blur;
+  height: 1em;
+  color: 666666;
+  text-decoration: none
+}
+
+h2 {
+  display: none;
+}
+
+div.chapter div.table p.title {
+  visibility: hidden;
+  display: none;
+}
+
+div.chapter table {
+  border: 1px solid black !important;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.chapter table th {
+  background-color: black;
+  color: white;
+}
+
+div.chapter table th p, table td p {
+  margin: 0px !important;
+  padding: 2px !important;
+  font-size: 0.8em;
+}
+
+div.chapter tbody tr:nth-of-type(even) {
+  background: #e6e6e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #0000A0;
+}
+
+a:visited {
+  color: #6060A0;
+}
+
+a:hover {
+  color: #A00000;
+}
+
+/* Shrink lists that are too big. */
+div.itemizedlist a#compact + ul.itemizedlist {
+  font-size: 0.75em;
+  line-height: 0.75em;
+}
+
+/* Apply German font to German text. */
+div.blockquote a#german + blockquote.blockquote {
+  font-family: 'AlteSchwabacherRegular';
+}
+
+blockquote {
+  font-size: 0.8em;
+  padding-top: 0;
+  margin-top: -0.5em;
+  text-align: justify;
+}
+
+br.table-break {
+  display: none;
+}
+
+span.strike {
+  text-decoration: line-through;
+}
+
+div.copyright {
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0.75em;
+  background: rgba(255, 255, 255, 0.9); 
+  width: 300px;
+}
+
+div.advertisement {
+  width: 468px;
+  height: 60px;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0.8em 0.8em 0.8em;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0.8em 0.8em 0.8em;
+  box-shadow: rgba(0,0,0,0.8) 0.8em 0.8em 0.8em;
+}
+
+@font-face {
+    font-family: 'ArevSansRegular';
+    src: url('fonts/arev-webfont.eot');
+    src: url('fonts/arev-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arev-webfont.woff') format('woff'),
+         url('fonts/arev-webfont.ttf') format('truetype'),
+         url('fonts/arev-webfont.svg#ArevSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArevSansBold';
+    src: url('fonts/arevbd-webfont.eot');
+    src: url('fonts/arevbd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arevbd-webfont.woff') format('woff'),
+         url('fonts/arevbd-webfont.ttf') format('truetype'),
+         url('fonts/arevbd-webfont.svg#ArevSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArevSansBoldOblique';
+    src: url('fonts/arevbi-webfont.eot');
+    src: url('fonts/arevbi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arevbi-webfont.woff') format('woff'),
+         url('fonts/arevbi-webfont.ttf') format('truetype'),
+         url('fonts/arevbi-webfont.svg#ArevSansBoldOblique') format('svg');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'ArevSansOblique';
+    src: url('fonts/arevit-webfont.eot');
+    src: url('fonts/arevit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arevit-webfont.woff') format('woff'),
+         url('fonts/arevit-webfont.ttf') format('truetype'),
+         url('fonts/arevit-webfont.svg#ArevSansOblique') format('svg');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'AlteSchwabacherRegular';
+    src: url('fonts/alteschwabacher-webfont.eot');
+    src: url('fonts/alteschwabacher-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/alteschwabacher-webfont.woff') format('woff'),
+         url('fonts/alteschwabacher-webfont.ttf') format('truetype'),
+         url('fonts/alteschwabacher-webfont.svg#AlteSchwabacherRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
